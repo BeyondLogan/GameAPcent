@@ -42,6 +42,12 @@ yum install -y \
     php7.3-gmp \
     php7.3-intl
 
+curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr/local/bin --filename=composer
+
+sudo apt-get install mysql-server nginx
+
+sudo yum install mysql-server nginx
+
 yum list updates
 
 yum check-update
