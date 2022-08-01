@@ -28,4 +28,4 @@ sudo yum update httpd
 
 sudo yum -x 'kernel*' -x 'php*' update
 
-udo reboot
+sudo reboot
