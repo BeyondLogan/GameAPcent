@@ -26,7 +26,7 @@ sudo apt-get -y install \
     php7.3-gmp \
     php7.3-intl
 
-sudo yum -y install \
+yum install -y \
     php7.3-common \
     php7.3-cli \
     php7.3-fpm \
@@ -41,3 +41,12 @@ sudo yum -y install \
     php7.3-bcmath \
     php7.3-gmp \
     php7.3-intl
+
+yum list updates
+
+yum check-update
+
+yum update
+
+yum install nginx mariadb-server php-fpm
+
