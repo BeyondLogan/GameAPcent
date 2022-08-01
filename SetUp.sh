@@ -50,3 +50,28 @@ yum update
 
 yum install nginx mariadb-server php-fpm
 
+yum groupinstall "Development Tools"
+
+yum groups install "Development Tools"
+
+yum groupupdate "Development Tools"
+
+yum groups update "Development Tools"
+
+yum groupinfo 'Development Tools'
+
+yum groups info 'Development Tools'
+
+yum groups info 'File and Print Server'
+
+yum list extras
+
+yum clean all
+
+yum check
+
+yum repolist
+
+yum repoinfo nginx
+
+Sudo Reboot
